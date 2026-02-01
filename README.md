@@ -25,7 +25,11 @@ A full-stack task management application with authentication, advanced filtering
 
 ## 📸 Demo
 
-[Add screenshots or GIF of your application here]
+<img width="1024" height="557" alt="Screenshot 2026-02-01 at 9 19 40 PM" src="https://github.com/user-attachments/assets/4b6f84d2-6466-4e47-b2c5-98f598daf348" />
+<img width="1024" height="557" alt="Screenshot 2026-02-01 at 9 19 53 PM" src="https://github.com/user-attachments/assets/142df643-ee32-4ca8-8d4a-65fdaf44f437" />
+<img width="1024" height="557" alt="Screenshot 2026-02-01 at 9 20 00 PM" src="https://github.com/user-attachments/assets/7c0f60e1-2851-4ac3-89ce-67cadfc15d70" />
+
+
 
 ## 🛠️ Tech Stack
 
@@ -252,23 +256,6 @@ GET /api/tasks?status=pending&search=meeting&sortBy=created_at&order=DESC
 - Touch-friendly interface
 - Modern gradient design
 
-## 🌐 Deployment
-
-### Quick Deploy Options
-
-**Heroku:**
-```bash
-heroku create your-app-name
-heroku addons:create cleardb:ignite
-git push heroku main
-```
-
-**Railway:**
-- Connect GitHub repo
-- Add MySQL database plugin
-- Deploy automatically
-
-**See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions**
 
 ## 🔧 Configuration
 
@@ -295,21 +282,6 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the ISC License.
-
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-
-## 🙏 Acknowledgments
-
-- Built as part of a task management assignment
-- Inspired by modern task management applications
-- Thanks to all contributors
 
 ## 📈 Project Status
 
@@ -339,13 +311,6 @@ lsof -ti:3000 | xargs kill
 - Check token is included in request headers
 - Token format: `Bearer YOUR_TOKEN`
 
-## 📞 Support
-
-For issues and questions:
-- Open an issue on GitHub
-- Check existing issues for solutions
-- Read documentation files
-
 ## 🔮 Future Enhancements
 
 - [ ] Task categories/tags
@@ -359,6 +324,3 @@ For issues and questions:
 - [ ] Activity log
 - [ ] Data export (CSV, PDF)
 
----
-
-**⭐ If you find this project useful, please give it a star!**
