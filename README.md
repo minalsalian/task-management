@@ -2,8 +2,6 @@
 
 A full-stack task management application with authentication, advanced filtering, and comprehensive testing. Built with Node.js, Express, MySQL, and modern JavaScript.
 
-[![Node.js CI](https://github.com/yourusername/task-management/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/task-management/actions/workflows/ci.yml)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## ✨ Features
 
