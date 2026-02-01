@@ -1,0 +1,27 @@
+{
+  "name": "Task Management App",
+  "description": "A full-stack task management application with authentication",
+  "repository": "https://github.com/yourusername/task-management",
+  "keywords": ["node", "express", "mysql", "jwt", "authentication", "crud"],
+  "env": {
+    "JWT_SECRET": {
+      "description": "Secret key for JWT token signing",
+      "generator": "secret"
+    },
+    "JWT_EXPIRES_IN": {
+      "description": "JWT token expiration time",
+      "value": "7d"
+    }
+  },
+  "addons": [
+    {
+      "plan": "cleardb:ignite",
+      "as": "DATABASE"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
